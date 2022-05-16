@@ -1,6 +1,6 @@
 # Recommeder System Approaches
 
-Data Source: 
+**Data Source**: 
 MovieLens 100K rating dataset from [MovieLens](https://grouplens.org/datasets/%20movielens/) (the small dataset recommended for education and development).
 
 :rewind: **1. User-based Collaborative Filtering (UBCF)**:
