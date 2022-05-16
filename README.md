@@ -29,4 +29,6 @@ For producing group recommendation, we will use the user-based collaborative fil
    - [ ] Recommendation with disagreements:
     Now we will consider disagreements between the users in the group. Here, we will define a way for counting the disagreements between the users in a group, and propose a method that takes disagreements into account when computing suggestions for the group. Use again the group of 3 users, and for this group, show the top-20 recommendations, i.e., the 20 movies with the highest prediction scores that your method suggests. Use the MovieLens 100K rating dataset. 
 
-   
+:rewind: **3. Sequencial Recommendation**:
+The goal of the section is to design & implement a new method for producing sequencial group recommendations. Here we are suggesting a simple modifications of the existing approach, e.g., by proposing and using alternatives for group aggregation that ensure good results for the group. Produce a group of 3 users, and for this group, show the top-20 recommenda:ons in 5 different sequences, i.e., the 20 movies with the highest predic:on scores in 5 rounds.
+
