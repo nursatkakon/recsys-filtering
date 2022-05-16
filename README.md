@@ -5,9 +5,9 @@ MovieLens 100K rating dataset from https://grouplens.org/datasets/%20movielens/ 
 
 1. User-based Collaborative Filtering (UBCF):
 Implementing user-based collaborative filtering approach by
-  - Using the Pearson correlation function for computing similarities between users.
-  - The prediction function presented in class for predicting movies scores.
-  - Select a user from the dataset, and for this user, show the 10 most similar users and the 20 most relevant movies that the recommender suggests.
+  - [ ] Using the Pearson correlation function for computing similarities between users.
+  - [ ] The prediction function presented in class for predicting movies scores.
+  - [ ] Select a user from the dataset, and for this user, show the 10 most similar users and the 20 most relevant movies that the recommender suggests.
 
 2. Item-based Collaborative Filtering (IBCF):
 Implementing the item-based collaborative filtering approach by, 
