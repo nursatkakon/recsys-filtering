@@ -18,12 +18,15 @@ Implementing the item-based collaborative filtering approach by,
 :rewind: **3. Group Recommendation**:
 For producing group recommendation, we will use the user-based collaborative filtering approach as this implemented first. Specifically, for producing group recommendations, we will first compute the movies recommendations for each user in the group, and then we will aggregate the lists of the individual users, so as to produce a single list of movies for the group. We will implement two well established aggregation methods for producing the group recommendations.
 
-  - [ ] Average Aggregation Method:
+    - [ ] Average Aggregation Method:
     The first aggregation approach is the average method. The main idea behind this approach is that all members are considered equals. So, the rating of an item for a group of users will be given be averaging the scores of an item across all group members. 
     Produce a group of 3 users, and for this group, show the top-20 recommendations, i.e., the 20 movies with the highest prediction scores that the average method suggest. 
     
-  - [ ] Least Misery Aggregation Method:
+    - [ ] Least Misery Aggregation Method:
     The second aggregation method is the least misery method, where one member can act as a veto for the rest of the group. In this case, the rating of an item for a group of users is computed as the minimum score assigned to that item in all group members recommendations. 
     Produce a group of 3 users, and for this group, show the top-20 recommendations, i.e., the 20 movies with the highest prediction scores that the least misery method suggest. 
    
+    - [ ] Recommendation with disagreements:
+    Now we will consider disagreements between the users in the group. Here, we will define a way for counting the disagreements between the users in a group, and propose a method that takes disagreements into account when computing suggestions for the group. Use again the group of 3 users, and for this group, show the top-20 recommendations, i.e., the 20 movies with the highest prediction scores that your method suggests. Use the MovieLens 100K rating dataset. 
+
    
