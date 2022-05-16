@@ -32,3 +32,15 @@ For producing group recommendation, we will use the user-based collaborative fil
 :rewind: **3. Sequencial Recommendation**:
 The goal of the section is to design & implement a new method for producing sequencial group recommendations. Here we are suggesting a simple modifications of the existing approach, e.g., by proposing and using alternatives for group aggregation that ensure good results for the group. Produce a group of 3 users, and for this group, show the top-20 recommenda:ons in 5 different sequences, i.e., the 20 movies with the highest predic:on scores in 5 rounds.
 
+
+:rewind: **4. why-not questions**: Motivated by the [research paper](https://homepages.tuni.fi/konstantinos.stefanidis/docs/wise20.pdf), the goal is to motivated by the why-not methods for producing explanations for group recommendations for the granularity case for both atomic (e.g., Why not Matrix?) and group (e.g., Why not action movies?) cases, as well as for position absenteeism case (e.g., Why not rank Matrix first?). Producing a group of 3 users, and for this group, show the top-20 recommendations, i.e., the 20 movies with the highest prediction scores, using the MovieLens 100K rating dataset. Given this recommendation list, take as input one why-not question example from each of the above cases and report the corresponding explanations. 
+
+
+
+
+
+
+
+
+
+
